@@ -17,7 +17,7 @@ A retro-style workout tracker theme for [Hugo](https://gohugo.io/), with pixelat
 
 ## Features
 
-- Per-exercise checkboxes, weight (kg, up to 200kg), and RPE (1-10) tracking
+- Per-exercise checkboxes, weight (kg, up to 200), and RPE (1-10) tracking
 - Weekly auto-reset of home page with localStorage (cookies/cache) archiving
 - Export workout archive log as a text file from localStorage
 - Embedded YouTube exercise demos (standard, Shorts, and youtu.be URLs)
@@ -91,12 +91,12 @@ exercises:
 
 Fields:
 
-- `id` — unique slug (used as localStorage key)
-- `name` — display name
-- `tracked` — `true` adds weight/RPE selects; `false` shows checkbox only
-- `description` — exercise instructions
-- `cue` — coaching cue (shown as blockquote, optional)
-- `youtube` — video URL (supports `watch?v=`, `/shorts/`, `youtu.be` formats)
+- `id`: unique slug (used as localStorage key)
+- `name`: display name
+- `tracked`: `true` adds weight/RPE selects; `false` shows checkbox only
+- `description`: exercise instructions
+- `cue`: coaching cue (shown as blockquote, optional)
+- `youtube`: video URL (supports `watch?v=`, `/shorts/`, `youtu.be` formats)
 
 ### Content pages
 
