@@ -1,6 +1,7 @@
 # Gymbros
 
-A retro-style workout tracker theme for [Hugo](https://gohugo.io/), with pixelated font for extra coolness. 
+A retro-style workout tracker theme for [Hugo](https://gohugo.io/), with pixelated font for extra coolness.
+
 - Track your weekly exercises with checkboxes, weight (in kg), and RPE (Rate of Perceived Exertion).
 - Review the exercises for each day with a page dedicated to each plan, complete with:
   - Name of Exercise
