@@ -1,16 +1,24 @@
 # Gymbros
 
-A retro pixel workout tracker theme for [Hugo](https://gohugo.io/). Track your weekly exercises with checkboxes, weight (kg), and RPE selects — all stored in localStorage with automatic weekly archiving and text-file export.
+A retro-style workout tracker theme for [Hugo](https://gohugo.io/), with pixelated font for extra coolness. 
+- Track your weekly exercises with checkboxes, weight (in kg), and RPE (Rate of Perceived Exertion).
+- Review the exercises for each day with a page dedicated to each plan, complete with:
+  - Name of Exercise
+  - Verbal Instructions
+  - Repeatable Cue for Focus on Form
+  - A video embed to serve as a tutorial
+- Data logged by the user gets stored in their browser's localStorage with automatic weekly archiving.
+- If the user would like to export the archive, there's a feature for that which outputs a text file that's easy-to-read.
 
-![Screenshot](https://raw.githubusercontent.com/turkeystar142/gymbros/main/images/home_darktheme.png)
-![Screenshot](https://raw.githubusercontent.com/turkeystar142/gymbros/main/images/day_darktheme.png)
-![Screenshot](https://raw.githubusercontent.com/turkeystar142/gymbros/main/images/day_mobile.png.png)
-![Screenshot](https://raw.githubusercontent.com/turkeystar142/gymbros/main/images/home_lighttheme.png)
+![Dark Theme Home](https://raw.githubusercontent.com/turkeystar142/gymbros/main/images/home_darktheme.png)
+![Dark Theme Day](https://raw.githubusercontent.com/turkeystar142/gymbros/main/images/day_darktheme.png)
+![Dark Theme Mobile](https://raw.githubusercontent.com/turkeystar142/gymbros/main/images/day_mobile.png.png)
+![Light Theme Home](https://raw.githubusercontent.com/turkeystar142/gymbros/main/images/home_lighttheme.png)
 
 ## Features
 
-- Per-exercise checkboxes, weight (kg), and RPE (1-10) tracking
-- Weekly auto-reset with localStorage (cookies/cache) archiving
+- Per-exercise checkboxes, weight (kg, up to 200kg), and RPE (1-10) tracking
+- Weekly auto-reset of home page with localStorage (cookies/cache) archiving
 - Export workout archive log as a text file from localStorage
 - Embedded YouTube exercise demos (standard, Shorts, and youtu.be URLs)
 - Automatic dark mode via `prefers-color-scheme`
@@ -64,7 +72,7 @@ theme = 'gymbros'
 Create YAML files in `data/workouts/` for each day. Example (`data/workouts/monday.yaml`):
 
 ```yaml
-title: "Monday — Lower Body"
+title: "Monday - Lower Body"
 subtitle: "Focus: legs + stability"
 exercises:
   - id: "back-squat"
@@ -96,7 +104,7 @@ Create thin markdown files in `content/days/` for each workout day:
 
 ```markdown
 ---
-title: "Monday — Lower Body"
+title: "Monday - Lower Body"
 weight: 1
 day: "monday"
 description: "Focus: legs + stability"
