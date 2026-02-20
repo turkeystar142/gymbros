@@ -12,7 +12,7 @@ A retro-style workout tracker theme for [Hugo](https://gohugo.io/), with pixelat
 
 ![Dark Theme Home](https://raw.githubusercontent.com/turkeystar142/gymbros/main/images/home_darktheme.png)
 ![Dark Theme Day](https://raw.githubusercontent.com/turkeystar142/gymbros/main/images/day_darktheme.png)
-![Dark Theme Mobile](https://raw.githubusercontent.com/turkeystar142/gymbros/main/images/day_mobile.png.png)
+![Dark Theme Mobile](https://raw.githubusercontent.com/turkeystar142/gymbros/main/images/day_mobile.png)
 ![Light Theme Home](https://raw.githubusercontent.com/turkeystar142/gymbros/main/images/home_lighttheme.png)
 
 ## Features
