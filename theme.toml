@@ -3,6 +3,7 @@ license = "MIT"
 licenselink = "https://github.com/turkeystar142/gymbros/blob/main/LICENSE"
 description = "Retro pixel workout tracker theme for Hugo"
 homepage = "https://github.com/turkeystar142/gymbros"
+demosite = "https://winterarc.nuna.moe/"
 tags = ["fitness", "retro", "pixel", "tracker"]
 features = ["dark-mode", "responsive", "localStorage", "workout-tracker"]
 min_version = "0.128.0"
