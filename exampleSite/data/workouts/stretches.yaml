@@ -1,0 +1,33 @@
+title: "Stretches"
+subtitle: "Mobility & flexibility routine"
+exercises:
+  - id: "cat-cow-stretch"
+    name: "Cat-Cow Stretch"
+    tracked: false
+    description: "On hands and knees, slowly alternate between arching your back upward and dropping your belly while lifting your chest, moving smoothly through the spine."
+    cue: ""
+    youtube: ""
+  - id: "downward-dog"
+    name: "Downward Dog"
+    tracked: false
+    description: "From hands and feet on the floor, lift your hips high to form an inverted V, pressing your hands into the ground while lengthening your spine and legs."
+    cue: ""
+    youtube: ""
+  - id: "worlds-greatest-stretch"
+    name: "World's Greatest Stretch"
+    tracked: false
+    description: "Step one foot forward into a deep lunge, place both hands on the floor, then rotate your torso and reach one arm toward the ceiling."
+    cue: ""
+    youtube: ""
+  - id: "deep-squat-hold"
+    name: "Deep Squat Hold"
+    tracked: false
+    description: "Stand with feet shoulder-width apart, sink into the deepest squat you can maintain while keeping your chest tall and gently pushing your knees outward."
+    cue: ""
+    youtube: ""
+  - id: "hip-flexor-stretch"
+    name: "Hip Flexor Stretch"
+    tracked: false
+    description: "Step one foot forward into a lunge position and gently push your hips forward while keeping your torso upright to stretch the rear hip."
+    cue: ""
+    youtube: ""

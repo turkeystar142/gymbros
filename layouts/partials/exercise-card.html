@@ -5,6 +5,6 @@
     <blockquote class="exercise-cue">"{{ .cue }}"</blockquote>
   {{ end }}
   {{ if .youtube }}
-    {{ partial "youtube-embed.html" (dict "url" .youtube "name" .name) }}
+    {{ partial "media-embed.html" (dict "url" .youtube "name" .name) }}
   {{ end }}
 </article>
