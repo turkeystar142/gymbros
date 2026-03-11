@@ -31,12 +31,15 @@
               </label>
               {{ if .tracked }}
                 <div class="tracker-inputs">
-                  <select class="exercise-weight" data-day="{{ $dayKey }}" data-exercise="{{ .id }}">
-                    <option value="">kg</option>
-                    {{ range seq 0 200 }}
-                      <option value="{{ . }}">{{ . }}kg</option>
-                    {{ end }}
-                  </select>
+                  <div class="weight-wrapper">
+                    <select class="exercise-weight" data-day="{{ $dayKey }}" data-exercise="{{ .id }}">
+                      <option value="">kg</option>
+                      {{ range seq 0 200 }}
+                        <option value="{{ . }}">{{ . }}kg</option>
+                      {{ end }}
+                    </select>
+                    <span class="weight-lbs"></span>
+                  </div>
                   <select class="exercise-rpe" data-day="{{ $dayKey }}" data-exercise="{{ .id }}">
                     <option value="">RPE</option>
                     {{ range seq 1 10 }}

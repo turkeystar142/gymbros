@@ -69,6 +69,17 @@
     setJSON(KEYS.tracker(weekKey), state);
   }
 
+  function updateLbsDisplay(sel) {
+    var lbsSpan = sel.parentElement.querySelector('.weight-lbs');
+    if (!lbsSpan) return;
+    if (sel.value === '') {
+      lbsSpan.textContent = '';
+    } else {
+      var lbs = Math.round(Number(sel.value) * 2.20462 * 10) / 10;
+      lbsSpan.textContent = lbs + 'lbs';
+    }
+  }
+
   function initTracker() {
     var weekKey = ensureCurrentWeek();
 
@@ -103,9 +114,11 @@
       if (entry && entry.weight !== undefined && entry.weight !== '') {
         sel.value = String(entry.weight);
       }
+      updateLbsDisplay(sel);
       sel.addEventListener('change', function () {
         var val = sel.value === '' ? '' : Number(sel.value);
         updateExercise(weekKey, day, exercise, 'weight', val);
+        updateLbsDisplay(sel);
       });
     });
 
